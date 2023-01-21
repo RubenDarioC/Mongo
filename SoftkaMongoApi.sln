@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftkaMongo.Api", "SoftkaMongo.Api\SoftkaMongo.Api.csproj", "{D52761EC-692B-4CD4-9D89-FAD2061872A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftkaMongo.Contracts", "SoftkaMongo.Contracts\SoftkaMongo.Contracts.csproj", "{3CBE83B4-E52C-44AD-9110-6EEA2BCE17E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftkaMongo.Domain", "SoftkaMongo.Domain\SoftkaMongo.Domain.csproj", "{EBCE8734-C869-4CF6-975A-6AEC38776993}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D52761EC-692B-4CD4-9D89-FAD2061872A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D52761EC-692B-4CD4-9D89-FAD2061872A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D52761EC-692B-4CD4-9D89-FAD2061872A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D52761EC-692B-4CD4-9D89-FAD2061872A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CBE83B4-E52C-44AD-9110-6EEA2BCE17E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBE83B4-E52C-44AD-9110-6EEA2BCE17E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBE83B4-E52C-44AD-9110-6EEA2BCE17E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBE83B4-E52C-44AD-9110-6EEA2BCE17E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBCE8734-C869-4CF6-975A-6AEC38776993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCE8734-C869-4CF6-975A-6AEC38776993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBCE8734-C869-4CF6-975A-6AEC38776993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCE8734-C869-4CF6-975A-6AEC38776993}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
