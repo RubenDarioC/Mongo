@@ -7,8 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccessLayer\SoftkaMongo.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\SoftkaMongo.BusinessLogicLayer\SoftkaMongo.BusinessLogicLayer.csproj" />
+    <ProjectReference Include="..\SoftkaMongo.Contracts\SoftkaMongo.Contracts.csproj" />
   </ItemGroup>
 
 </Project>
